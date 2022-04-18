@@ -1,0 +1,23 @@
+p.error, p.e {
+	display:block;
+	text-align:center;
+	color:#F00;
+	font-size:12px;
+	text-transform:uppercase;
+}
+p.e {
+	text-align:left !important;
+	margin:0px !important;
+}
+.loading-indicator {
+	background:url(../images/loading.gif);
+	background-position:center center;
+	background-repeat:no-repeat;
+	height:80px;
+	width:80px;
+}
+.loading-indicator-overlay {
+	background-color:#FFF;
+	filter:alpha(opacity=60);
+	opacity:0.6;
+}

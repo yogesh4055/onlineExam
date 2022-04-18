@@ -1,0 +1,28 @@
+[24-Mar-2022 08:03:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Dotenv\Repository\Adapter\ServerConstAdapter' not found in /home/nifzdonk/onlineexam.k2academy.in/vendor/vlucas/phpdotenv/src/Repository/RepositoryBuilder.php:106
+Stack trace:
+#0 [internal function]: Dotenv\Repository\RepositoryBuilder::defaultAdapters()
+#1 /home/nifzdonk/onlineexam.k2academy.in/vendor/vlucas/phpdotenv/src/Repository/RepositoryBuilder.php(93): iterator_to_array(Object(Generator))
+#2 /home/nifzdonk/onlineexam.k2academy.in/vendor/laravel/framework/src/Illuminate/Support/Env.php(55): Dotenv\Repository\RepositoryBuilder::createWithDefaultAdapters()
+#3 /home/nifzdonk/onlineexam.k2academy.in/vendor/laravel/framework/src/Illuminate/Support/Env.php(76): Illuminate\Support\Env::getRepository()
+#4 /home/nifzdonk/onlineexam.k2academy.in/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1083): Illuminate\Support\Env::get('APP_CONFIG_CACH...')
+#5 /home/nifzdonk/onlineexam.k2academy.in/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1031): Illumina in /home/nifzdonk/onlineexam.k2academy.in/vendor/vlucas/phpdotenv/src/Repository/RepositoryBuilder.php on line 106
+[24-Mar-2022 08:04:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Dotenv\Repository\Adapter\ServerConstAdapter' not found in /home/nifzdonk/onlineexam.k2academy.in/vendor/vlucas/phpdotenv/src/Repository/RepositoryBuilder.php:106
+Stack trace:
+#0 [internal function]: Dotenv\Repository\RepositoryBuilder::defaultAdapters()
+#1 /home/nifzdonk/onlineexam.k2academy.in/vendor/vlucas/phpdotenv/src/Repository/RepositoryBuilder.php(93): iterator_to_array(Object(Generator))
+#2 /home/nifzdonk/onlineexam.k2academy.in/vendor/laravel/framework/src/Illuminate/Support/Env.php(55): Dotenv\Repository\RepositoryBuilder::createWithDefaultAdapters()
+#3 /home/nifzdonk/onlineexam.k2academy.in/vendor/laravel/framework/src/Illuminate/Support/Env.php(76): Illuminate\Support\Env::getRepository()
+#4 /home/nifzdonk/onlineexam.k2academy.in/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1083): Illuminate\Support\Env::get('APP_CONFIG_CACH...')
+#5 /home/nifzdonk/onlineexam.k2academy.in/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1031): Illumina in /home/nifzdonk/onlineexam.k2academy.in/vendor/vlucas/phpdotenv/src/Repository/RepositoryBuilder.php on line 106
+[24-Mar-2022 08:08:16 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Illuminate\Log\Logger::__construct() must be an instance of Psr\Log\LoggerInterface, instance of Monolog\Logger given, called in /home/nifzdonk/onlineexam.k2academy.in/vendor/laravel/framework/src/Illuminate/Log/LogManager.php on line 182 and defined in /home/nifzdonk/onlineexam.k2academy.in/vendor/laravel/framework/src/Illuminate/Log/Logger.php:43
+Stack trace:
+#0 /home/nifzdonk/onlineexam.k2academy.in/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(182): Illuminate\Log\Logger->__construct(Object(Monolog\Logger), Object(Illuminate\Events\Dispatcher))
+#1 /home/nifzdonk/onlineexam.k2academy.in/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(129): Illuminate\Log\LogManager->createEmergencyLogger()
+#2 /home/nifzdonk/onlineexam.k2academy.in/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->get('stack')
+#3 /home/nifzdonk/onlineexam.k2academy.in/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(590): Ill in /home/nifzdonk/onlineexam.k2academy.in/vendor/laravel/framework/src/Illuminate/Log/Logger.php on line 43
+[24-Mar-2022 08:08:16 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Illuminate\Log\Logger::__construct() must be an instance of Psr\Log\LoggerInterface, instance of Monolog\Logger given, called in /home/nifzdonk/onlineexam.k2academy.in/vendor/laravel/framework/src/Illuminate/Log/LogManager.php on line 182 and defined in /home/nifzdonk/onlineexam.k2academy.in/vendor/laravel/framework/src/Illuminate/Log/Logger.php:43
+Stack trace:
+#0 /home/nifzdonk/onlineexam.k2academy.in/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(182): Illuminate\Log\Logger->__construct(Object(Monolog\Logger), Object(Illuminate\Events\Dispatcher))
+#1 /home/nifzdonk/onlineexam.k2academy.in/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(129): Illuminate\Log\LogManager->createEmergencyLogger()
+#2 /home/nifzdonk/onlineexam.k2academy.in/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->get('stack')
+#3 /home/nifzdonk/onlineexam.k2academy.in/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(590): Ill in /home/nifzdonk/onlineexam.k2academy.in/vendor/laravel/framework/src/Illuminate/Log/Logger.php on line 43
